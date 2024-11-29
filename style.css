@@ -1,0 +1,98 @@
+.header {
+    width: 1280;
+    position: fixed;
+}
+/* Kode css navigator bar */
+ul{
+    list-style: none;
+    background: #22438c;
+    padding: 0px 0px;
+    margin: 120px 0px;
+    position: fixed;
+    width: 1280px;
+    height: 60px;
+}
+ul li{
+    display: inline-block;
+    position: relatif;
+    height: 60px;
+    padding: 10px 8px;
+}
+ul li a{
+    padding: 10px 0px;
+    text-align: center;
+}
+ul a:hover{
+    background-color: red;
+}
+/* kode css dropdown */
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    background: #22438c;
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0px 0px;
+}
+ul li:hover ul.dropdown{
+    display:block;
+}
+
+.column {
+    float: left;
+    padding: 0px 10px;
+}
+/* Left column */
+.column.side {
+    margin:170px 0px;
+    width: 20%;
+    background-color: bisque;
+}
+/* Kode CSS middle Bar */
+.column.middle {
+    margin:170px 0px;
+    width: 950px;
+    height: 400px;
+    background-color: bisque;
+    text-align: justify;
+   
+}
+
+.footer  {
+    width:1280px;
+    position:fixed;
+    margin: 550px 0px;
+}
+.column{
+    float: left;
+    padding: 0px 10px;
+}
+.column.side{
+    margin: 170px 0px;
+    width: 250px;
+    height: 400px;
+    background-color: bisque;
+}
+.column.middle{
+    margin: 170px 0px;
+    width: 950px;
+    height: 400px;
+    background-color: pink;
+}
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    background: #22438c;
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0px 0px;
+}
+ul li:hover ul.dropdown{
+    display:block;
+}
